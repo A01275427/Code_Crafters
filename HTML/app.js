@@ -16,8 +16,9 @@ app.use((request, response, next) => {
     next();
 })
 
+
 const rutasLogin = require('./routes/login.routes');
-app.use('/', rutasLogin);
+app.use('/user', rutasLogin);
 
 
 
