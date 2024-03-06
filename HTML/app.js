@@ -6,4 +6,8 @@ app.use((request, response, next) => {
     next();
 })
 
+app.use('/user/login', (request, response, next) => {
+    response.send('Respuesta de la ruta "/user/login"'); 
+  });
+
 app.listen(3050);
