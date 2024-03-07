@@ -22,4 +22,4 @@ app.use('/user', rutasLogin);
 
 
 
-app.listen(3050);
+app.listen(2050);
