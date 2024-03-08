@@ -20,6 +20,8 @@ app.use((request, response, next) => {
 const rutasLogin = require('./routes/login.routes');
 app.use('/user', rutasLogin);
 
+const rutasHome = require('./routes/home.routes');
+app.use('/', rutasHome);
 
 
 app.listen(2050);
