@@ -162,7 +162,6 @@ body {
 .sidebar .links_name{
     opacity: 0;
     pointer-events: none;
-    transition: all 0.5s ease;
 }
 
 .sidebar.active .links_name{
@@ -258,6 +257,7 @@ body {
 
 .home_content{
     position: absolute;
+    margin: 50px;
     height: 100%;
     width: calc(100% - 78px);
     left: 78px;
